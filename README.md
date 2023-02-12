@@ -20,5 +20,7 @@ You have to get ready on our GitHub page first. Find the "Releases" tab, click o
 # Install & Use
 The entire software is just bunch of command files. You just have to extract them before starting the application for best results. Run the <kbd><kbd>WinUtils</kbd>.<kbd>cmd</kbd> file.
 
+Remember to delete "cached.dat" that the program created.
+
 Thanks for using the software and thanks for trusting us.
 Henry133
