@@ -1,8 +1,8 @@
 @echo off
 set workdir=%cd%
 cls
-color 
-mode con: cols=125 lines=25
+color
+mode con: cols=116 lines=35
 title Windows Utilities by Henry133 - ttm38421@gmail.com - Henry133#2436
 goto title
 
@@ -16,14 +16,20 @@ goto title
 	REM You are free to redistribute the program, as all credits are also here
 	
 	REM You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
+  
+  REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
+  
     REM ----------------------------------------------------------------------------------------
 
 :title
 cd %workdir%
 cls
 echo.
+echo.
+echo.
 echo.                                         -------// Windows Utilities \\-------
 echo.                    [ Fun ]
+echo.
 echo.                    [1] Display a Matrix
 echo.                    [2] Random Generator
 echo.                    [3] Write some code
@@ -33,18 +39,25 @@ echo.                    [6] Device Manager
 echo.                    [7] Run Command Prompt - [p] Run PowerShell
 echo.                    [8] Run Registry Editor
 echo.                    [9] Run Task Manager
+echo.
 echo.                    [ Utilities ]
+echo.
 echo.                    [a] Run Calculator - [b] Calculate RIGHT HERE
 echo.                    [c] Display a message (to specified user)
 echo.                    [d] List (specified) directory structure - [i] List (specified) directory content
+echo.
 echo.                    [ Misc. ]
+echo.
 echo.                    [e] Credits
 echo.                    [f] Display ReadMe
 echo.                    [s] Source code
 echo.                    [t] Exit
 echo.
 
+:: Patch-1
+
 choice /C 123456789abcdefstip /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
+
 
 if "%ERRORLEVEL%"=="1" goto:Matrix
 if "%ERRORLEVEL%"=="2" goto:Random
@@ -157,7 +170,7 @@ cls
 
 echo CAUTION: NEVER TOUCH THE DEVICE MANAGEMENT WINDOW IF YOU DON'T KNOW ANYTHING! DO YOU WANT TO CONTINUE?
 choice
-if "%ERRORLEVEL%"=="1" devmgmt.msc && goto title
+if "%ERRORLEVEL%"=="1" devmgmt.msc
 if "%ERRORLEVEL%"=="2" goto title
 
 :CMD
@@ -176,8 +189,9 @@ cls
 
 echo SUPER DUPER CAUTION: NEVER TOUCH ANYTHING IF YOU DON'T UNDERSTAND THEM, UNLESS YOU KNOW WHAT ARE YOU DOING! DO YOU WANT TO CONTINUE?
 choice
-if "%ERRORLEVEL%"=="1" regedit && goto title
+if "%ERRORLEVEL%"=="1" regedit
 if "%ERRORLEVEL%"=="2" goto title
+goto title
 
 :TaskMgr
 
@@ -188,7 +202,8 @@ if "%ERRORLEVEL%"=="2" goto title
 cls
 
 echo A small warning: If you end a system process, it would get your system into trouble!
-taskmgr.exe && goto title
+taskmgr.exe
+goto title
 
 :Calc
 
@@ -259,8 +274,8 @@ goto title
 cls
 echo Are you sure to exit? [Y/N]
 choice
-if "%ERRORLEVEL%" == "2" exit
-if "%ERRORLEVEL%" == "1" goto title
+if "%ERRORLEVEL%" == "1" exit
+if "%ERRORLEVEL%" == "2" goto title
 
 :DirContent
 
