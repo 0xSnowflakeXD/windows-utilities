@@ -209,8 +209,11 @@ set /a b = %fn%-%sn%
 set /a c = %fn%*%sn%
 set /a d = %fn%/%sn%
 
-echo Result for Add, Sub, Mul, Div:
-echo %a%, %b%, %c%, %d%
+echo Results:
+echo %fn% + %sn% = %a%
+echo %fn% - %sn% = %b%
+echo %fn% * %sn% = %c%
+echo %fn% / %sn% = %d%
 echo.
 echo Press any key to return to title.
 pause >> NUL
