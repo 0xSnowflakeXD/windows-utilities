@@ -12,12 +12,10 @@ goto title
 	REM Developer: Henry133
 	REM Coder/Programmer: Henry133
 	
-	REM The software is a small and lightweight utillities for Windows that written in Batch which is easily to edit if you understand how to code for Windows using this language.
-	REM Free to redistribute, as all credits are also here
+	REM Windows Utilities is a collection of small and lightweight utilities for Windows, written in Batch.
+	REM You are free to redistribute the program, as all credits are also here
 	
-	REM Leave a feedback at Henry133#2436 or open an issue on GitHub. Thanks
-
-	REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
+	REM You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
     REM ----------------------------------------------------------------------------------------
 
 :title
@@ -44,10 +42,9 @@ echo.                    [e] Credits
 echo.                    [f] Display ReadMe
 echo.                    [s] Source code
 echo.                    [t] Exit
-echo.					 [l] Clear Cache
 echo.
 
-choice /C 123456789abcdefstipl /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
+choice /C 123456789abcdefstip /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
 
 if "%ERRORLEVEL%"=="1" goto:Matrix
 if "%ERRORLEVEL%"=="2" goto:Random
@@ -68,12 +65,6 @@ if "%ERRORLEVEL%"=="16" goto:GitHub
 if "%ERRORLEVEL%"=="17" goto:Exit
 if "%ERRORLEVEL%"=="18" goto:DirContent
 if "%ERRORLEVEL%"=="19" goto:PS
-if "%ERRORLEVEL%"=="20" goto:clean
-
-:clean
-cls
-forfiles /m *.dat /c "del /f /q @FILE"
-goto title
 
 :Matrix
 
@@ -142,8 +133,8 @@ if code==2 (
 cls
 
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" && cls && goto title
+start chrome && cls && goto title
+start chrome && cls && goto title
 
 :GhcrLink
 
@@ -153,8 +144,8 @@ cls
 
 set /p link="Enter the link that you wish to open with Chrome: "
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
+start chrome %link% && cls && goto title
+start chrome %link% && cls && goto title
 
 :Devmgmt
 
@@ -218,8 +209,11 @@ set /a b = %fn%-%sn%
 set /a c = %fn%*%sn%
 set /a d = %fn%/%sn%
 
-echo Result for Add, Sub, Mul, Div:
-echo %a%, %b%, %c%, %d%
+echo Results:
+echo %fn% + %sn% = %a%
+echo %fn% - %sn% = %b%
+echo %fn% * %sn% = %c%
+echo %fn% / %sn% = %d%
 echo.
 echo Press any key to return to title.
 pause >> NUL
