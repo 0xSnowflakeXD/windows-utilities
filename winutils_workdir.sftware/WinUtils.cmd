@@ -42,10 +42,9 @@ echo.                    [e] Credits
 echo.                    [f] Display ReadMe
 echo.                    [s] Source code
 echo.                    [t] Exit
-echo.					 [l] Clear Cache
 echo.
 
-choice /C 123456789abcdefstipl /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
+choice /C 123456789abcdefstip /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
 
 if "%ERRORLEVEL%"=="1" goto:Matrix
 if "%ERRORLEVEL%"=="2" goto:Random
@@ -66,12 +65,6 @@ if "%ERRORLEVEL%"=="16" goto:GitHub
 if "%ERRORLEVEL%"=="17" goto:Exit
 if "%ERRORLEVEL%"=="18" goto:DirContent
 if "%ERRORLEVEL%"=="19" goto:PS
-if "%ERRORLEVEL%"=="20" goto:clean
-
-:clean
-cls
-forfiles /m *.dat /c "del /f /q @FILE"
-goto title
 
 :Matrix
 
