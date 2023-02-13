@@ -12,10 +12,10 @@ goto title
 	REM Developer: Henry133
 	REM Coder/Programmer: Henry133
 	
-	REM The software is a small and lightweight utillities for Windows that written in Batch which is easily to edit if you understand how to code for Windows using this language.
-	REM Free to redistribute, as all credits are also here
+	REM Windows Utilities is a collection of small and lightweight utilities for Windows, written in Batch.
+	REM You are free to redistribute the program, as all credits are also here
 	
-	REM Leave a feedback at Henry133#2436 or open an issue on GitHub. Thanks
+	REM You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
     REM ----------------------------------------------------------------------------------------
 
 :title
