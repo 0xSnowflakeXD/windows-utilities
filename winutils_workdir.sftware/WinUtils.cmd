@@ -16,8 +16,6 @@ goto title
 	REM Free to redistribute, as all credits are also here
 	
 	REM Leave a feedback at Henry133#2436 or open an issue on GitHub. Thanks
-
-	REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
     REM ----------------------------------------------------------------------------------------
 
 :title
