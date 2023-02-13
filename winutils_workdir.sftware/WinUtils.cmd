@@ -218,6 +218,8 @@ cls
 
 :DOSCalc
 
+cls :: HOTFIX-02 -- Clear the screen before calculating. More like other sections --
+
 set /p fn="Enter the first number: "
 set /p sn="Enter the second number: "
 
