@@ -14,5 +14,5 @@ echo.	    ----------------------------------------------------------------------
 echo.
 echo.
 echo.	    If you paid someone to just get this software, you got fooled. Request a refund RIGHT NOW!
-pause >> cached.dat
+pause >> NUL
 exit

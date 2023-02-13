@@ -12,12 +12,13 @@ goto title
 	REM Developer: Henry133
 	REM Coder/Programmer: Henry133
 
-	REM The software is a small and lightweight utillities for Windows that written in Batch which is easily to edit if you understand how to code for Windows using this language.
-	REM Free to redistribute, as all credits are also here
-
-	REM Leave a feedback at Henry133#2436 or open an issue on GitHub. Thanks
-
-	REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
+	REM Windows Utilities is a collection of small and lightweight utilities for Windows, written in Batch.
+	REM You are free to redistribute the program, as all credits are also here
+	
+	REM You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
+  
+  REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
+  
     REM ----------------------------------------------------------------------------------------
 
 :title
@@ -97,7 +98,7 @@ cls
 echo Your result is %random%
 echo.
 echo Press any key to get back to title screen
-pause >> cached.dat
+pause >> NUL
 goto :title
 
 :CodeWrite
@@ -113,7 +114,7 @@ if code==0 (
   echo console.log('Hello World')
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code+=1
   goto title
 )
@@ -124,7 +125,7 @@ if code==1 (
   echo bot.login("AbcDex_IamToken")
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code+=1
   goto title
 )
@@ -136,7 +137,7 @@ if code==2 (
   echo console.log(a + b)
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code=0
   goto title
 )
@@ -232,7 +233,7 @@ echo Result for Add, Sub, Mul, Div:
 echo %a%, %b%, %c%, %d%
 echo.
 echo Press any key to return to title.
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :Msg
@@ -253,7 +254,7 @@ cls
 set /p dir="Specify FULL path to directory that you want to analyze: "
 cd %dir%
 tree %dir%
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :Credit
@@ -285,7 +286,7 @@ cls
 set /p dir="Specify FULL path to directory that you want to analyze: "
 cd %dir%
 dir %dir%
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :PS

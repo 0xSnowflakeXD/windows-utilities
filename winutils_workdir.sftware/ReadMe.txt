@@ -4,13 +4,13 @@
 >	Developer: Henry133
 >	Coder/Programmer: Henry133
 >	
->	The software is a small and lightweight utillities for Windows that written in Batch which is easily to edit if you understand how to code for Windows using this (programming) language.
->	Free to redistribute, as all credits are also here
+>	Windows Utilities is a collection of small and lightweight utilities for Windows, written in Batch.
+>	You are free to redistribute the program, as all credits are also here
 >	
->	Leave a feedback at Henry133#2436 or open an issue on GitHub. Thanks
->
+>	You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
+> 
 >	If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
-    ----------------------------------------------------------------------------------------
+  -----------------
 
 You should notice that the program with put the "cached.dat" to the folder. Please remove them.
 

@@ -9,5 +9,5 @@ goto main
 :main
 echo Someone sent you:
 echo %1
-pause >> cached.dat
+pause >> NUL
 exit
