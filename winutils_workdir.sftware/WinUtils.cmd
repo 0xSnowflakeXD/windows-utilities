@@ -89,7 +89,7 @@ cls
 echo Your result is %random%
 echo.
 echo Press any key to get back to title screen
-pause >> cached.dat
+pause >> NUL
 goto :title
 
 :CodeWrite
@@ -105,7 +105,7 @@ if code==0 (
   echo console.log('Hello World')
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code+=1
   goto title
 )
@@ -116,7 +116,7 @@ if code==1 (
   echo bot.login("AbcDex_IamToken")
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code+=1
   goto title
 )
@@ -128,7 +128,7 @@ if code==2 (
   echo console.log(a + b)
   echo.
   echo Press any key to get back to title screen
-  pause >> cached.dat
+  pause >> NUL
   set /a code=0
   goto title
 )
@@ -140,8 +140,8 @@ if code==2 (
 cls
 
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" && cls && goto title
+start chrome && cls && goto title
+start chrome && cls && goto title
 
 :GhcrLink
 
@@ -151,8 +151,8 @@ cls
 
 set /p link="Enter the link that you wish to open with Chrome: "
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
+start chrome %link% && cls && goto title
+start chrome %link% && cls && goto title
 
 :Devmgmt
 
@@ -220,7 +220,7 @@ echo Result for Add, Sub, Mul, Div:
 echo %a%, %b%, %c%, %d%
 echo.
 echo Press any key to return to title.
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :Msg
@@ -241,7 +241,7 @@ cls
 set /p dir="Specify FULL path to directory that you want to analyze: "
 cd %dir%
 tree %dir%
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :Credit
@@ -273,7 +273,7 @@ cls
 set /p dir="Specify FULL path to directory that you want to analyze: "
 cd %dir%
 dir %dir%
-pause >> cached.dat
+pause >> NUL
 goto title
 
 :PS
