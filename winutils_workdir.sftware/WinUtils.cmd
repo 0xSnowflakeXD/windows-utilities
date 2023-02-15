@@ -36,7 +36,7 @@ echo.                    [3] Write some code
 echo.                    [ Shortcuts ]
 echo.                    [4] Open Google Chrome - [5] Open Google Chrome with a link
 echo.                    [6] Device Manager
-echo.                    [7] Run Command Prompt - [p] Run PowerShell
+echo.                    [7] Run Command Prompt - [p] Run Windows PowerShell
 echo.                    [8] Run Registry Editor
 echo.                    [9] Run Task Manager
 echo.
@@ -171,7 +171,7 @@ if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Appli
 
 cls
 
-echo CAUTION: NEVER TOUCH THE DEVICE MANAGEMENT WINDOW IF YOU DON'T KNOW ANYTHING! DO YOU WANT TO CONTINUE?
+echo WARNING: Use Device Manager with caution! Unless you know what you are doing, you might break something. Continue?
 choice
 if "%ERRORLEVEL%"=="1" devmgmt.msc
 if "%ERRORLEVEL%"=="2" goto title
@@ -186,11 +186,11 @@ goto title
 
 :: Open Registry Editor
 ::
-:: SUPER DUPER CAUTION: NEVER TOUCH ANYTHING IF YOU DON'T UNDERSTAND THEM, UNLESS YOU KNOW WHAT ARE YOU DOING!
+:: WARNING: NEVER TOUCH ANYTHING IF YOU DON'T UNDERSTAND THEM, UNLESS YOU KNOW WHAT ARE YOU DOING!
 
 cls
 
-echo SUPER DUPER CAUTION: NEVER TOUCH ANYTHING IF YOU DON'T UNDERSTAND THEM, UNLESS YOU KNOW WHAT ARE YOU DOING! DO YOU WANT TO CONTINUE?
+echo WARNING: Use Registry Editor with caution! Unless you know what you are doing, you might break something. Continue?
 choice
 if "%ERRORLEVEL%"=="1" regedit
 if "%ERRORLEVEL%"=="2" goto title
@@ -204,7 +204,7 @@ goto title
 
 cls
 
-echo A small warning: If you end a system process, it would get your system into trouble!
+echo WARNING: Task Manager allows you to end system/critical processes which may break or crash your system. Continue?
 taskmgr.exe
 goto title
 
