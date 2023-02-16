@@ -9,8 +9,7 @@
 >	
 >	You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
 > 
->	If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
-  -----------------
+>	If you want to translate the program to another languages, that is FORBIDDEN. That is forbidden as we cannot verify the quality of these translations. Please understand. Go learn English.
 
 You should notice that the program with put the "cached.dat" to the folder. Please remove them.
 

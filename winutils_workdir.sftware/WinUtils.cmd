@@ -4,7 +4,21 @@ cls
 color
 mode con: cols=116 lines=35
 title Windows Utilities by Henry133 - ttm38421@gmail.com - Henry133#2436
-goto title
+echo.                                         -------// Windows Utilities \\-------
+echo.                                          WinUtils Trust Center - Bulit-in
+echo.
+echo. Let's take a check to verify our application.
+echo. (Y for Yes, N for No)
+echo.
+echo. Is this English? Or did you download this thing on our Official GitHub?
+choice /c yn /n /m "[Y|N] Is this application is English? Did you download this thing on our Official GitHub?"
+
+if errorlevel == 2 (
+	cd res
+	start /wait winutils-ban.cmd
+	exit
+)
+if errorlevel == 1 goto title
 
     REM ----------------------------------------------------------------------------------------
 	REM Copyright (c) 2023 by James Henry
@@ -17,7 +31,7 @@ goto title
 	
 	REM You can leave feedback by sending a DM to Henry133#2436 or by opening an issue on GitHub. Thanks
   
-  REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
+    REM If you want to translate the file to another languages, that is FORBIDDEN. Please learn English if you REALLY want to use this file!
   
     REM ----------------------------------------------------------------------------------------
 
@@ -52,9 +66,8 @@ echo.                    [e] Credits
 echo.                    [f] Display ReadMe
 echo.                    [s] Source code
 echo.                    [t] Exit
-echo.					 [l] Clear Cache
 echo.
-choice /C 123456789abcdefstipl /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
+choice /C 123456789abcdefstip /M ".    Enter your choice. Press the key on your keyboard matches to your option" /n
 
 if "%ERRORLEVEL%"=="1" goto:Matrix
 if "%ERRORLEVEL%"=="2" goto:Random
@@ -75,12 +88,6 @@ if "%ERRORLEVEL%"=="16" goto:GitHub
 if "%ERRORLEVEL%"=="17" goto:Exit
 if "%ERRORLEVEL%"=="18" goto:DirContent
 if "%ERRORLEVEL%"=="19" goto:PS
-if "%ERRORLEVEL%"=="20" goto:clean
-
-:clean
-cls
-forfiles /m *.dat /c "del /f /q @FILE"
-goto title
 
 :Matrix
 
@@ -104,7 +111,7 @@ goto :title
 :CodeWrite
 
 :: Code that are written in JavaScript.
-:: Those aren't flexible at all.
+:: Those aren't flexible at all. Weird bug appeard
 
 cls
 
@@ -142,17 +149,18 @@ if code==2 (
   goto title
 )
 
-:Ghcr
+:Gchr
 
 ::Easily to open Chrome. Way faster.
 
 cls
 
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" && cls && goto title
+if exist "C:\Program Files (x86)" start "Chrome" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+else if not exist "C:\Program Files(x86)" start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe"
+goto title
 
-:GhcrLink
+:GchrLink
 
 :: Open Chrome with Link
 
@@ -160,8 +168,9 @@ cls
 
 set /p link="Enter the link that you wish to open with Chrome: "
 echo You will be redirected to the title until the Chrome is started.
-if exist "C:\Program Files (x86)" start "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
-if not exist "C:\Program Files(x86)" start "C:\Program Files\Google\Chrome\Application\chrome.exe" %link% && cls && goto title
+if exist "C:\Program Files (x86)" start "Chrome" "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" %link%
+else if not exist "C:\Program Files(x86)" start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" %link%
+goto title
 
 :Devmgmt
 
@@ -177,9 +186,10 @@ if "%ERRORLEVEL%"=="1" devmgmt.msc
 if "%ERRORLEVEL%"=="2" goto title
 
 :CMD
-echo Intergrated Command Prompt
-echo If you want to back to title, just type 'exit' in the prompt.
-prompt %cd%>
+cls
+REM [rc-0121367-ALPHA] Patch Start
+start "CMD - Windows Utilities" cmd.exe :: prompt %cd%> ::
+REM [rc-0121367-ALPHA] Patch End
 goto title
 
 :RegEdit
@@ -205,7 +215,7 @@ goto title
 cls
 
 echo A small warning: If you end a system process, it would get your system into trouble!
-taskmgr.exe
+start /wait taskmgr.exe
 goto title
 
 :Calc
@@ -293,3 +303,5 @@ goto title
 cls
 echo Spawned PowerShell window.
 start powershell && goto title
+
+:: -- WinUtils End
