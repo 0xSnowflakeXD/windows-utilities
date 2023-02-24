@@ -24,7 +24,9 @@ When running for the first time, you may get a SmartScreen warning. Click __More
 
 ![image](https://user-images.githubusercontent.com/42378704/219983101-9cacbc6a-1151-4ec4-b510-6c9cc54da4f6.png)
 
-When you see this screen, press Y.
+When you see this screen:
+- If the software have all items of [Software Authority](https://github.com/ColdSnow2/windows-utilities/#software-authority), press Y on your keyboard
+- Else if not, click N and continue using software (continuing tutorial is in the popup) with risks
 
 ![image](https://user-images.githubusercontent.com/42378704/219983180-70af797d-60ba-4e9a-b059-e50491fa6994.png)
 
