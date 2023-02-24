@@ -1,5 +1,8 @@
 # Welcome to Windows Utilities
 Windows Utilities is a small and lightweight batch file that can do essentials on Windows way faster! Just launch the program, and press a key. It's really that simple!
+
+**DISCLAIMER: PLEASE NEVER DOWNLOAD ANYTHING FROM UNAUTHORZIED SITES! THEY MAY MESS YOUR WINDOWS UP OR JUST FILLED THE PROGRAM WITH TRASH. TRANSLATIONS ARE ILLEGAL, JUST KEEP THEM IN MIND AND YOU MUST REPORT THEM AT Henry133#2436 ON DISCORD!!!** ![Learn more](https://github.com/ColdSnow2/windows-utilities/#software-authority)
+
 Here are some images:
 ![image](https://user-images.githubusercontent.com/42378704/219983417-4ff19f11-b505-4b07-9c8b-78f573122e65.png)
 ![0000000968](https://user-images.githubusercontent.com/42378704/219983480-5a2a1cbc-0ae7-40ac-8d82-a24c551e61ef.gif)
@@ -32,6 +35,19 @@ You're in!
   <summary> Batch files are easy to mess with, so make sure that you have downloaded WinUtils from this repository. </summary>
   <summary> If you had to pay for this program, (if anyone would even sell batch files anyway) you just got SCAMMED. </summary>
 </details>
+
+# Software authority
+Software authority is the most important part that you MUST read before using this software.
+If the software have ALL of requirements below, your software is legit. They are, but not limited at:
+- The file must 100% original. You can just DM Henry133#2436 for checking issues or compare them on GitHub.
+- Translations are banned for default. Translations are not trusted and my contains unacceptable contents after translating. You may use YOUR OWN translated cop(y/ies) of Windows Utilities but you CAN'T share them or public them on the internet.
+- The software may contains plugin (Plugins are added in the incoming updates). Make sure those JS file is harmless or usable, otherwise, we are not responsible for them (except plugins are made by our team or from this GitHub page, half of the damage are indemnify as you have enough proof for this)
+- Please don't pay for this software (unless sponsorship)
+- Water are just H2O, please do not against the rules! HCL is just acid, please DO NOT conceal bad behavior(s) of people to this software!
+
+Tips:
+Batch files are easy to mess with, so make sure that you have downloaded WinUtils from this repository or very very trusted sites.
+If you had to pay for this program, (if anyone would even sell batch files anyway) you just got SCAMMED.
 
 # Install & Use
 The entire software is just bunch of batch files. You just have to extract them before starting the application for best results. Run the `WinUtils.cmd` file.
