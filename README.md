@@ -1,7 +1,7 @@
 # Welcome to Windows Utilities
 Windows Utilities is a small and lightweight batch file that can do essentials on Windows way faster! Just launch the program, and press a key. It's really that simple!
 
-**DISCLAIMER: PLEASE NEVER DOWNLOAD ANYTHING FROM UNAUTHORZIED SITES! THEY MAY MESS YOUR WINDOWS UP OR JUST FILLED THE PROGRAM WITH TRASH. TRANSLATIONS ARE ILLEGAL, JUST KEEP THEM IN MIND AND YOU MUST REPORT THEM AT Henry133#2436 ON DISCORD!!!** ![Learn more](https://github.com/ColdSnow2/windows-utilities/#software-authority)
+**DISCLAIMER: PLEASE NEVER DOWNLOAD ANYTHING FROM UNAUTHORZIED SITES! THEY MAY MESS YOUR WINDOWS UP OR JUST FILLED THE PROGRAM WITH TRASH. TRANSLATIONS ARE ILLEGAL, JUST KEEP THEM IN MIND AND YOU MUST REPORT THEM AT Henry133#2436 ON DISCORD!!!** [Learn more](https://github.com/ColdSnow2/windows-utilities/#software-authority)
 
 Here are some images:
 ![image](https://user-images.githubusercontent.com/42378704/219983417-4ff19f11-b505-4b07-9c8b-78f573122e65.png)
