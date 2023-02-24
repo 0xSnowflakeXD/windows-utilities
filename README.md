@@ -1,24 +1,40 @@
 # Welcome to Windows Utilities
-Windows Utilities is a small and lightweight batch file that can do essentials on Windows way faster! Only press the key that are requested, customizable if you know Batch. Download right now!
-
-Here is some images:
-- ![image](https://user-images.githubusercontent.com/99589107/218313789-7d41cdf1-aa4c-41a7-9bad-a2087c5333b9.png)
-- ![image](https://user-images.githubusercontent.com/99589107/218313806-2b7d1b91-f3f6-49b3-b271-4fc6073af593.png)
-- ![image](https://user-images.githubusercontent.com/99589107/218313829-56fbfeae-e954-4678-9831-87adc7742770.png)
+Windows Utilities is a small and lightweight batch file that can do essentials on Windows way faster! Just launch the program, and press a key. It's really that simple!
+Here are some images:
+![image](https://user-images.githubusercontent.com/42378704/219983417-4ff19f11-b505-4b07-9c8b-78f573122e65.png)
+![0000000968](https://user-images.githubusercontent.com/42378704/219983480-5a2a1cbc-0ae7-40ac-8d82-a24c551e61ef.gif)
+![image](https://user-images.githubusercontent.com/42378704/219983563-2682bcfa-e214-43e7-ab26-5dff9f5a48ed.png)
 
 We are on <a href="https://github.com/ColdSnow2/windows-utilities/"><img src="https://i.ibb.co/47M994h/Git-Hub-Mark.png" alt="GitHub" border="0" width="210" height="32"></a>
 # Download
-You have to get ready on our GitHub page first. Find the "Releases" tab, click on the "Releases" text or click on the version appear (always the lastest version). Click on the "Assets" and download the file. To make sure you are not clicking the wrong thing, we have filename as [version.ver.v] Windows-Utilities.[fullversion].[release-number].zip. That should look like <kbr>[0.12.1-BETA] Windows-Utillities.0-12-1-BETA-DevRelease.zip</kbr>
+First, look for the section on the right that says "Releases", and click on it as shown
+![image](https://user-images.githubusercontent.com/42378704/219982830-b0990c79-9ae5-4f05-9348-63e569de415a.png)
+Click the link under Assets. This will download a ZIP file containing the program.
+![image](https://user-images.githubusercontent.com/42378704/219982874-9e3d8ffd-44d1-411a-9fae-780c0f39ee04.png)
+Open the ZIP file. You can then extract it.
+![image](https://user-images.githubusercontent.com/42378704/219982961-f9477e48-164f-4d7f-858a-d5a8a7131746.png)
+Once you've done that, you can then double-click and run the WinUtils.cmd file.
+
+When running for the first time, you may get a SmartScreen warning. Click __More info__, then click "Run anyway".
+![image](https://user-images.githubusercontent.com/42378704/219983053-67e0aa86-4e23-41a9-96b2-b754037cd7b0.png)
+
+
+![image](https://user-images.githubusercontent.com/42378704/219983101-9cacbc6a-1151-4ec4-b510-6c9cc54da4f6.png)
+
+When you see this screen, press Y.
+
+![image](https://user-images.githubusercontent.com/42378704/219983180-70af797d-60ba-4e9a-b059-e50491fa6994.png)
+
+You're in!
 
 <details>
   <summary> Notes </summary>
-  <summary> Please DO NOT download files on internet. Only from GitHub the most trusted source. Many copies of this thing on internet is outdated or infected that you shouldn't get them. </summary>
-  <summary> Please DO NOT download the source code unless you want to edit it. If you want to use the application, better use our official files </summary>
-  <summary> Please DO NOT pay anyone for this GitHub page. In case you did that, REQUEST A REFUND RIGHT NOW! </summary>
+  <summary> Batch files are easy to mess with, so make sure that you have downloaded WinUtils from this repository. </summary>
+  <summary> If you had to pay for this program, (if anyone would even sell batch files anyway) you just got SCAMMED. </summary>
 </details>
 
 # Install & Use
-The entire software is just bunch of command files. You just have to extract them before starting the application for best results. Run the <kbd><kbd>WinUtils</kbd>.<kbd>cmd</kbd> file.
+The entire software is just bunch of batch files. You just have to extract them before starting the application for best results. Run the `WinUtils.cmd` file.
 
 Remember to delete "cached.dat" that the program created.
 
