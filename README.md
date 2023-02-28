@@ -38,6 +38,23 @@ You're in!
   <summary> If you had to pay for this program, (if anyone would even sell batch files anyway) you just got SCAMMED. </summary>
 </details>
 
+# Unrelated programs
+If you search Google and see lots of WinUtils, remember:
+- First, they are Windows Utilities in full name, not just winutils
+- Then, they are actual the thing you searched, otherwise not, you are downloading the wrong thing
+
+Here is a list of unauthorized & unrelated program:
+- [Winutils for Hadoop](https://github.com/steveloughran/winutils)
+- [Not even this list, our program isn't there](https://www.makeuseof.com/best-utilities-for-windows/)
+- [IM NOT EVEN SURE IF THIS IS A SCAM](https://www.bleepingcomputer.com/download/windows/utilities/)
+- [NEVER BE TROLLED AT WEBPAGE TITLE](https://www.instructables.com/How-to-Use-Windows-Utilities-to-Maintain-Your-PC/)
+
+Here is a lost of authorized forks/source code that links to our program:
+- [Official Windows Utilites GitHub](https://github.com/ColdSnow2/windows-utilities/)
+- [4TechGuns fork (essential bugfix, additional programming & English correcting)](https://github.com/4techguns/windows-utilities/)
+- [BuranCode fork (outdated version)](https://github.com/BuranCodes/windows-utilities)
+
+Im not even sure if there is anything trying to copy us. Contact Henry133#2436 or ttm38421@gmail.com if you have any problems!
 # Software authority
 Software authority is the most important part that you MUST read before using this software.
 If the software have ALL of requirements below, your software is legit. They are, but not limited at:
