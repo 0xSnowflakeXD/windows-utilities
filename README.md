@@ -54,6 +54,7 @@ Here is a lost of authorized forks/source code that links to our program:
 - [4TechGuns fork (essential bugfix, additional programming & English correcting)](https://github.com/4techguns/windows-utilities/)
 - [BuranCode fork (outdated version)](https://github.com/BuranCodes/windows-utilities)
 
+Lot's of unauthorized programs does not contain any malware/viruses, but they are not Windows utilities. Issues [#6](https://github.com/ColdSnow2/windows-utilities/issues/6)
 Im not even sure if there is anything trying to copy us. Contact Henry133#2436 or ttm38421@gmail.com if you have any problems!
 # Software authority
 Software authority is the most important part that you MUST read before using this software.
