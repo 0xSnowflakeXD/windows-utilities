@@ -1,4 +1,6 @@
 # Welcome to Windows Utilities
+**ABANDONED!**. Feel free copying, selling this batch script until we revive!
+In order to revive this project, please contact Henry133#2436 (Discord). Revive like the Stalin!
 A small collection of Windows utilities that have been designed to reduce the time for you to find a Windows function! An API also coming soon so you can make your additional scripts for more function for program!
 
 **DISCLAIMER: PLEASE NEVER DOWNLOAD ANYTHING FROM UNAUTHORZIED SITES! THEY MAY MESS YOUR WINDOWS UP OR JUST FILLED THE PROGRAM WITH TRASH. TRANSLATIONS ARE ILLEGAL, JUST KEEP THEM IN MIND AND YOU MUST REPORT THEM AT Henry133#2436 ON DISCORD!!!** [Learn more](https://github.com/ColdSnow2/windows-utilities/#software-authority)
