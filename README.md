@@ -1,6 +1,6 @@
 # Welcome to Windows Utilities
-**ABANDONED!**. Feel free copying, selling this batch script until we revive!
-In order to revive this project, please contact Henry133#2436 (Discord). Revive like the Stalin!
+**ABANDONED!**. Feel free copying, selling this batch script (of course, **NO FREAKING TRANSLATION**) until we get back there and revive it!
+In order to revive this project, please contact Henry133#2436 (henry133.dev with the new username feature) (Discord).
 
 A small collection of Windows utilities that have been designed to reduce the time for you to find a Windows function! An API also coming soon so you can make your additional scripts for more function for program!
 
@@ -57,7 +57,7 @@ Here is a lost of authorized forks/source code that links to our program:
 - [4TechGuns fork (essential bugfix, additional programming & English correcting)](https://github.com/4techguns/windows-utilities/)
 - [BuranCode fork (outdated version)](https://github.com/BuranCodes/windows-utilities)
 
-Lot's of unauthorized programs does not contain any malware/viruses, but they are not Windows utilities. Issues [#6](https://github.com/ColdSnow2/windows-utilities/issues/6)
+Lots of unauthorized programs does not contain any malware/viruses, but they are not Windows utilities. Issues [#6](https://github.com/ColdSnow2/windows-utilities/issues/6)
 Im not even sure if there is anything trying to copy us. Contact Henry133#2436 or ttm38421@gmail.com if you have any problems!
 # Software authority
 Software authority is the most important part that you MUST read before using this software.
