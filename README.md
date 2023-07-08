@@ -52,9 +52,9 @@ Here is a list of unauthorized & unrelated program:
 - [IM NOT EVEN SURE IF THIS IS A SCAM](https://www.bleepingcomputer.com/download/windows/utilities/)
 - [NEVER BE TROLLED AT WEBPAGE TITLE](https://www.instructables.com/How-to-Use-Windows-Utilities-to-Maintain-Your-PC/)
 
-Here is a lost of authorized forks/source code that links to our program:
+Here is a lots of authorized forks/source code that links to our program:
 - [Official Windows Utilites GitHub](https://github.com/ColdSnow2/windows-utilities/)
-- [4TechGuns fork (essential bugfix, additional programming & English correcting)](https://github.com/4techguns/windows-utilities/)
+- [4TechGuns fork (essential bugfix, additional programming & English correction)](https://github.com/4techguns/windows-utilities/)
 - [BuranCode fork (outdated version)](https://github.com/BuranCodes/windows-utilities)
 
 Lots of unauthorized programs does not contain any malware/viruses, but they are not Windows utilities. Issues [#6](https://github.com/ColdSnow2/windows-utilities/issues/6)
